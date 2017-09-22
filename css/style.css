@@ -1,0 +1,276 @@
+/*аватар*/
+.avatar_module{
+    height: auto;
+    width: 400px;
+    padding: 73px 0 0 66px;
+    position: relative;
+}
+.icon_img{
+    position: relative;
+    top: 98px;
+    left:20px;
+}
+.proffession{
+    position: relative;
+    top:-15px;
+    font-size: 13px;
+}
+.avatar_field{
+    text-align: center;
+}
+.avatar_img{
+    position: relative;
+    top: 37px;
+    left:6px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #3d6cb0;
+    box-shadow:
+        0 0 0 1px #3d6cb0,
+        0 0 0 15px #ffffff,
+        0 0 0 16px #3d6cb0;
+}
+.header_style{
+    position: relative;
+    left: 6px;
+    top: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 100;
+}
+.proffession{
+    font-size: 21px;
+    font-weight: 700;   
+}
+
+/*профайл*/
+.profile-field{
+    margin-top: -21px;
+    padding-left: 23px;
+    width: 450px;
+    font-size: 16px;
+    line-height:20px;
+    text-align: justify;
+}
+
+/*контакт*/
+.cont_info{
+    position: relative;
+    top:-110px;
+    left: 25px;
+}
+.contact_table table{
+    width: 109%;
+    border-collapse: collapse;
+}
+
+.contact_table tr{
+    height: 54px;
+}
+
+.contact_table th{
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #3d6cb0;
+    font-size: 18px;
+}
+
+.contact_table td{
+    text-align: left;
+    font-size: 21px;
+    font-family: sans-serif;
+    padding-left: 30px;
+}
+
+/*скилл*/
+.skill{
+    position: absolute;
+    top:1230px;
+}
+
+.skill_table{
+    padding-left: 56px;
+}
+
+.skill_table th{
+    font-size: 22px;
+    font-weight: 300;
+    color: #3d6cb0;
+    font-family: sans-serif;
+}
+
+.skill_table td{
+    padding-left: 8px;
+    width: 20px;
+    height: 46px;
+}
+
+.circle {
+    width: 17px;
+    height: 17px;
+    background: #3d6cb0;
+    border-radius: 50px;
+}
+
+.circle_zero{
+    background: #e6e6e6;
+}
+
+/*образование*/
+.circle_education{
+    position: relative;
+    top:-3px;
+    left: 55px;
+    width: 19px;
+    height: 19px;
+    background: #000000;
+    border-radius: 50px;
+    
+}
+.education-main{
+    padding-left: 80px; 
+    padding-bottom: 30px;
+    margin-top: -45px;
+    margin-left: 15px;
+}
+.content{
+    position: absolute;
+    left:-26px;
+}
+
+.education-title{
+    color: #3d6cb0;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.education-date{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+}
+.education-uniname{
+    margin-top: -15px;
+    margin-bottom: -10px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+/*софт*/
+.softtable{
+    position: absolute;
+    top:125px;
+}
+#softwarecube{
+    display: block;
+    width: 276px;
+    height:23px;
+}
+.software-name{
+    text-align: left;
+    font-size: 27px;
+    font-weight: 100;
+    text-transform: uppercase;
+    width: 260px;
+    height:25px;
+    line-height: 5px;
+    margin-bottom:1px;
+}
+
+.firsttd{
+    padding-left: 24px;
+    padding-right: 68px; 
+    padding-bottom:10px;
+}
+/*служебное*/
+.education{
+    position: absolute;
+    top: 87px;
+    width: 600px;
+    margin-left: 23px;
+}
+
+.experience{
+    position: absolute;
+    top:760px;
+    width: 610px;
+    margin-left: 23px;
+}
+
+.software{
+    position: absolute;
+    top:1270px;
+    width: 610px;
+    margin-left: 23px;
+}
+
+#left-side {
+    width: 520px;
+    float: left;
+}
+
+#right-side {
+    width: 100%;
+    max-width: 565px;
+    margin-left: 500px;
+    margin-top: 40px; 
+}
+
+.module{
+    height:360px;
+    width: 328px;
+    padding-left:30px;
+}
+
+.skill_main{
+    width: 600px;
+    height: 350px;
+    padding-bottom: 50px;
+}
+
+.icon_img{
+    width: 75px;
+    height: 75px;
+    margin-top: -70px;
+}
+
+.title {
+    overflow: hidden;
+    color: #3d6cb0;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-stretch: ultra-condensed; 
+    text-transform: uppercase;
+}
+
+.title-block{
+    position: relative;
+    left:108px;
+    top:-10px;
+}
+
+.title:before,
+.title:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 100%;
+    height: 4px;
+    background: #3d6cb0;
+    border: solid #FFF;
+    border-width: 0 17px;
+}
+.title:before {
+   margin-left: -100%;
+}
+.title:after {
+   margin-right: -100%;
+}
